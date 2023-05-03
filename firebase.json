@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "stamphouseindia",
+    "public": "dist/stamphouse",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
